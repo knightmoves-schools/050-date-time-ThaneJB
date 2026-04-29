@@ -5,6 +5,7 @@ namespace knightmoves;
 public class Printer{
     
     public string Print(string dateString){
-        return "";
+        DateTime date = DateTime.Parse(dateString);
+        return ($"{date}");
     }
 } 
