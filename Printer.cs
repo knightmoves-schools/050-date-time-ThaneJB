@@ -6,6 +6,9 @@ public class Printer{
     
     public string Print(string dateString){
         DateTime date = DateTime.Parse(dateString);
-        return ($"{date}");
+
+        int year = date.Year;
+
+        return ($"{year}");
     }
 } 
